@@ -12,9 +12,8 @@ const Header = () => {
                 <Image src={Logo} alt="" width={150} height={100} />
             </button>
 
-            <li>< a href="#">Inicio</a></li>
-            <li>< a href="#">Informacion</a></li>
             <li>< a href="#">Proyectos</a></li>
+            <li>< a href="#">Informacion</a></li>
             <li>< a href="#">Contrataciones</a></li>
             <li>< a href="#">Contacto</a></li>
 

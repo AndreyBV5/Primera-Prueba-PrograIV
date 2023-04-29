@@ -5,26 +5,11 @@ const Hero = () => {
 
     return (
         <section className={styles.hero}>
-            <h2>Design solutions made easy</h2>
+            <h2>Andrey Portfolio</h2>
             <p className={styles.desktop}>
-                With over ten years of experience in various design disciplines, I’m
-                your one-stop
+                If you are interested in my portfolio, do not hesitate to follow me for more information.
                 <br />
                 shop for your design needs.
-            </p>
-            <p className={styles.tablet}>
-                With over ten years of experience in various design disciplines, I’m
-                <br />
-                your one-stop shop for your design needs.
-            </p>
-            <p className={styles.mobile}>
-                With over ten years of experience in
-                <br />
-                various design disciplines, I’m your
-                <br />
-                one-stop shop for your design
-                <br />
-                needs.
             </p>
 
             <div className={styles.desktop}>

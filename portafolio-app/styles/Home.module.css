@@ -56,3 +56,27 @@
     "a b c d"
     "a e e f";
 }
+
+.hero div svg:nth-child(1) {
+  grid-area: a;
+}
+
+.hero div svg:nth-child(2) {
+  grid-area: b;
+}
+
+.hero div svg:nth-child(3) {
+  grid-area: c;
+}
+
+.hero div svg:nth-child(4) {
+  grid-area: d;
+}
+
+.hero div svg:nth-child(5) {
+  grid-area: e;
+}
+
+.hero div svg:nth-child(6) {
+  grid-area: f;
+}

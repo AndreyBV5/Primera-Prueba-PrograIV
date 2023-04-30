@@ -12,16 +12,16 @@ const About = () => {
             </figure>
             <article>
                 <h2 className={styles.desktop}>
-                    I’m Amy, and I’d love to
+                    I’m Andrey, and I like to
                     <br />
                     work on your next project
                 </h2>
                 <p className={styles.desktop}>
-                    I love working with others to create beautiful design solutions.
+                    I like working with others to create design solutions.
                     <br />
-                    I’ve designed everything from brand illustrations to complete
+                    I have done some projects
                     <br />
-                    mobile apps. I’m also handy with a camera!
+                    most college jobs.
                 </p>
                 <button><a href="linkedin.com/in/andrey-barrios-valverde-16a707274" type="button">Free Consultation</a></button>
             </article>

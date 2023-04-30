@@ -23,7 +23,7 @@ const About = () => {
                     <br />
                     mobile apps. I’m also handy with a camera!
                 </p>
-                <a href="linkedin.com/in/andrey-barrios-valverde-16a707274" type="button">Free Consultation</a>
+                <button><a href="linkedin.com/in/andrey-barrios-valverde-16a707274" type="button">Free Consultation</a></button>
             </article>
         </div>
     );

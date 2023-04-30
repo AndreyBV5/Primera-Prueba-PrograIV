@@ -26,6 +26,10 @@
   background-color: #755cde;
 }
 
+.a button:nth-of-type(2):hover {
+  background-color: #755cde;
+}
+
 .hero {
   text-align: center;
   margin-top: 4.17rem;

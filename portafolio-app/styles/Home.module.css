@@ -114,3 +114,56 @@
 .footer div button:hover {
   background-color: #f6a560;
 }
+
+.work {
+  margin-top: 5.3rem;
+}
+
+.work h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.work div:nth-of-type(1) {
+  cursor: grab;
+  display: flex;
+  width: 2827px;
+  left: -53.45rem;
+  position: relative;
+  margin-top: 3.5rem;
+}
+
+.work div:nth-of-type(1) figure {
+  width: 540px;
+  margin: 0 0.94rem;
+  pointer-events: none;
+}
+
+.work div:nth-of-type(1) figure:nth-of-type(1) {
+  margin-left: 0;
+}
+
+.work div:nth-of-type(1) figure:nth-of-type(5) {
+  margin-right: 0;
+}
+
+.work div:nth-of-type(2) {
+  display: flex;
+  margin-top: 3.45rem;
+  justify-content: center;
+}
+
+.work div:nth-of-type(2) button {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  margin: 0 0.5rem;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.work div:nth-of-type(2) button:hover {
+  background-color: #755cde;
+}

@@ -4,6 +4,8 @@ import styles from '@/styles/Home.module.css'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import About from '@/components/About'
+import Proyects from '@/components/Proyects'
+
 
 
 const Home: NextPage = () =>{
@@ -19,6 +21,7 @@ const Home: NextPage = () =>{
       <Header/>
       <Hero/>
       <About/>
+      <Proyects/>
 
 
 

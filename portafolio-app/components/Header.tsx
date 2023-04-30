@@ -7,17 +7,16 @@ import styles from "../styles/Home.module.css"
 const Header = () => {
     return (
         <nav className={styles.nav}>
-            <button
-                type='button'>
-                <Image src={Logo} alt="" width={150} height={100} />
+            <button type='button'>
+            <Image src={Logo} alt="" width={150} height={100} />
             </button>
 
-            <li>< a href="#">Proyectos</a></li>
-            <li>< a href="#">Informacion</a></li>
-            <li>< a href="#">Contrataciones</a></li>
-            <li>< a href="#">Contacto</a></li>
-
+            <li><a>Proyectos</a></li>
+            <li>< a >Informacion</a></li>
+            <li>< a >Contrataciones</a></li>
+            <li>< a >Contacto</a></li>
         </nav>
+
     )
 }
 

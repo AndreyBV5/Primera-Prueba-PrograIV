@@ -10,7 +10,7 @@ const Header = () => {
             <button type='button'>
             <Image src={Logo} alt="" width={150} height={100} />
             </button>
-
+            
             <li><a>Proyectos</a></li>
             <li>< a >Informacion</a></li>
             <li>< a >Contrataciones</a></li>

@@ -8,7 +8,7 @@ const About = () => {
 
         <div className={styles.about}>
             <figure>
-                <Image src={Profile} placeholder="blur" alt="" />
+            <Image src={Profile} alt="" width={400} height={250} />
             </figure>
             <article>
                 <h2 className={styles.desktop}>

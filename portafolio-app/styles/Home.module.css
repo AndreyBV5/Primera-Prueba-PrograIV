@@ -1,4 +1,4 @@
-.container{
+.container {
   margin: 0 auto;
   max-width: 1110px;
   padding: 2.1rem 0 4rem 0;
@@ -10,7 +10,9 @@
   justify-content: space-between;
 }
 
-.nav button:nth-of-type(2), .about article button, .footer div button{
+.nav button:nth-of-type(2),
+.about article button,
+.footer div button {
   color: white;
   height: 3.5rem;
   font-size: 1rem;
@@ -18,12 +20,10 @@
   border-radius: 9999;
   letter-spacing: 003rem;
   background-color: black;
-
 }
 
-.nav button:nth-of-type(2):hover{
-  background-color: #2C73D2;
-
+.nav button:nth-of-type(2):hover {
+  background-color: #2c73d2;
 }
 
 .hero {
@@ -79,4 +79,38 @@
 
 .hero div svg:nth-child(6) {
   grid-area: f;
+}
+
+.about {
+  width: 100%;
+  display: flex;
+  min-width: 1110px;
+  align-items: center;
+  margin-top: 8.53rem;
+  justify-content: space-between;
+}
+
+.about article {
+  margin-right: 0.57rem;
+}
+
+.about article h2,
+.footer div article h2 {
+  font-size: 2.35rem;
+  letter-spacing: 0.08rem;
+}
+
+.about article p {
+  margin-top: 2.3rem;
+  margin-bottom: 2rem;
+}
+
+.about article button,
+.footer div button {
+  background-color: #eb7565;
+}
+
+.about article button:hover,
+.footer div button:hover {
+  background-color: #f6a560;
 }

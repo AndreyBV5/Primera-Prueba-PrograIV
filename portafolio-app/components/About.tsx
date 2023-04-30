@@ -23,7 +23,7 @@ const About = () => {
                     <br />
                     most college jobs.
                 </p>
-                <button><a href="linkedin.com/in/andrey-barrios-valverde-16a707274" type="button">Free Consultation</a></button>
+                <button><a href="https://www.linkedin.com/in/andrey-barrios-valverde-16a707274?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B9QUWZsFPTxuJccjkYHJAJg%3D%3D" type="button">Free Consultation Linkedin</a></button>
             </article>
         </div>
     );

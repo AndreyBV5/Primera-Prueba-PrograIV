@@ -4,7 +4,7 @@ import styles from '@/styles/Home.module.css'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import About from '@/components/About'
-import Proyects from '@/components/Proyects'
+import Projects from '@/components/Projects'
 
 
 
@@ -21,7 +21,7 @@ const Home: NextPage = () =>{
       <Header/>
       <Hero/>
       <About/>
-      <Proyects/>
+      <Projects/>
 
 
 

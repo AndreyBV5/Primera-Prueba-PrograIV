@@ -10,6 +10,7 @@ const About = () => {
             <figure>
             <Image src={Profile} alt="" width={400} height={250} />
             </figure>
+            <section id = "About">
             <article>
                 <h2 className={styles.desktop}>
                     I’m Andrey, and I like to
@@ -25,6 +26,7 @@ const About = () => {
                 </p>
                 <button><a href="https://www.linkedin.com/in/andrey-barrios-valverde-16a707274?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B9QUWZsFPTxuJccjkYHJAJg%3D%3D" type="button">Free Consultation Linkedin</a></button>
             </article>
+            </section>
         </div>
     );
 };

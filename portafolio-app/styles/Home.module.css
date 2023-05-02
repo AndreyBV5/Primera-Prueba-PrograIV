@@ -21,6 +21,7 @@
   background-color: transparent;
   border-radius: 20px;
   justify-content: space-evenly;
+  font-weight: bold;
 }
 
 .nav li a:hover{

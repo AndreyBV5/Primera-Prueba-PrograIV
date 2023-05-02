@@ -5,6 +5,7 @@ const Hero = () => {
 
     return (
         <section className={styles.hero}>
+            <section id = "UI/UX">
             <h2>Andrey Portfolio</h2>
             <p className={styles.desktop}>
                 If you are interested in my portfolio, do not hesitate to follow me for more information.
@@ -273,7 +274,7 @@ const Hero = () => {
                         />
                     </svg>
                 </div>
-
+                </section>
         </section>
     );
 };

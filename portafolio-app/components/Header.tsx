@@ -10,13 +10,14 @@ const Header = () => {
             <button type='button'>
                 <Image src={Logo} alt="" width={150} height={100} />
             </button>
-
-            <ul className={styles.lu}>
-                <li><a href="default.html">Proyects</a></li>
-                <li><a href="news.asp">About</a></li>
-                <li><a href="contact.asp">Hiring</a></li>
-                <li><a href="about.asp">Contacts</a></li>
+            <section id = "Header">
+            <ul className={styles.ul}>
+                <li><a href="#Projects">Proyects</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#About">Hiring</a></li>
+                <li><a href="#UI/UX">Contacts</a></li>
             </ul>
+            </section>
 
         </nav>
 

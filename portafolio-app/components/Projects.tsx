@@ -10,7 +10,7 @@ import Four from '../public/4.jpg'
 import Five from '../public/5.jpg'
 
 
-const Proyects = () => {
+const Projects = () => {
   const [x, setX] = useState(0);
 
   const handleSlide = (direction: string) => {
@@ -50,8 +50,9 @@ const Proyects = () => {
   return (
     <>
       <div className={styles.desktop}>
+        <section id = "Projects">
         <section className={styles.work}>
-          <h2>My Proyects</h2>
+          <h2>My Projects</h2>
           <motion.div
             animate={{ x }}
             drag="x"
@@ -102,9 +103,10 @@ const Proyects = () => {
             </button>
           </div>
         </section>
+        </section>
       </div>
     </>
   );
 };
 
-export default Proyects;
+export default Projects;

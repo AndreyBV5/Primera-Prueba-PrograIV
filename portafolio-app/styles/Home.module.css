@@ -128,14 +128,12 @@ background-color: #dd8c81;
   margin-bottom: 2rem;
 }
 
-.about article button,
-.footer div button {
+.about article button {
   background-color: #eb7565;
 }
 
-.a article button:hover,
-.footer div button:hover {
-  background-color: #f6a560;
+.about article button :hover{
+  background-color: #b93220;
 }
 
 .a article p {
@@ -278,6 +276,8 @@ background-color: #dd8c81;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
   }
+
+ 
   .work {
     margin-top: 7.5rem;
   }

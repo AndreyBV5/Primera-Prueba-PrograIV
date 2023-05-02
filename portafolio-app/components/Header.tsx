@@ -8,13 +8,16 @@ const Header = () => {
     return (
         <nav className={styles.nav}>
             <button type='button'>
-            <Image src={Logo} alt="" width={150} height={100} />
+                <Image src={Logo} alt="" width={150} height={100} />
             </button>
-            
-            <li><a>Proyectos</a></li>
-            <li>< a >Informacion</a></li>
-            <li>< a >Contrataciones</a></li>
-            <li>< a >Contacto</a></li>
+
+            <ul className={styles.lu}>
+                <li><a href="default.html">Proyects</a></li>
+                <li><a href="news.asp">About</a></li>
+                <li><a href="contact.asp">Hiring</a></li>
+                <li><a href="about.asp">Contacts</a></li>
+            </ul>
+
         </nav>
 
     )

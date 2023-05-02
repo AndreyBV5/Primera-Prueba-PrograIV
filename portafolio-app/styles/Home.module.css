@@ -4,6 +4,48 @@
   padding: 2.1rem 0 4rem 0;
 }
 
+.nav ul,
+.nav li,
+.nav li a {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px 43px;
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 20px;
+}
+
+.nav li a:hover{
+
+background-color: #dd8c81;
+
+
+}
+
+/* .li {
+  float: left;
+}
+
+.li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+/* .li a:hover {
+  background-color: #111;
+} */
+
 .nav {
   display: flex;
   align-items: center;
@@ -22,13 +64,6 @@
   background-color: black;
 }
 
-.nav button:nth-of-type(2):hover {
-  background-color: #755cde;
-}
-
-.a button:nth-of-type(2):hover {
-  background-color: #755cde;
-}
 
 .hero {
   text-align: center;

@@ -14,7 +14,8 @@
   overflow: hidden;
   float: left;
   display: block;
-  color: black;
+  color: white;
+  /* -webkit-text-fill-color: black; */
   text-align: center;
   padding: 10px 50px;
   text-decoration: none;
@@ -26,7 +27,7 @@
 
 .nav li a:hover{
 
-background-color: #dd8c81;
+background-color: #eb7565;
 
 }
 
@@ -139,16 +140,6 @@ background-color: #dd8c81;
 .a article p {
   margin-top: 2.3rem;
   margin-bottom: 2rem;
-}
-
-.a article button,
-.footer div button {
-  background-color: #eb7565;
-}
-
-.a article button:hover,
-.footer div button:hover {
-  background-color: #f6a560;
 }
 
 .work {

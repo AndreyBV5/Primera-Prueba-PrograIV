@@ -58,19 +58,19 @@ const Proyects = () => {
             dragConstraints={{ left: -855.2, right: 855.2 }}
           >
             <figure>
-              <Image src={One} placeholder="blur" alt="" width={550} height={400}/>
+              <Image src={One} placeholder="blur" alt="" width={500} height={300}/>
             </figure>
             <figure>
-              <Image src={Two} placeholder="blur" alt=""width={550} height={400}/>
+              <Image src={Two} placeholder="blur" alt=""width={500} height={300}/>
             </figure>
             <figure>
-              <Image src={Three} placeholder="blur" alt=""width={550} height={400}/>
+              <Image src={Three} placeholder="blur" alt=""width={500} height={300}/>
             </figure>
             <figure>
-              <Image src={Four} placeholder="blur" alt=""width={550} height={400}/>
+              <Image src={Four} placeholder="blur" alt=""width={500} height={300}/>
             </figure>
             <figure>
-              <Image src={Five} placeholder="blur" alt=""width={550} height={400}/>
+              <Image src={Five} placeholder="blur" alt=""width={500} height={300}/>
             </figure>
           </motion.div>
           <div>

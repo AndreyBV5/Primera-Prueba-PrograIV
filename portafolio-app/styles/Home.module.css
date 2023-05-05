@@ -10,19 +10,19 @@
 
   list-style-type: none;
   margin: 0;
-  padding: 0;
   overflow: hidden;
   float: left;
   display: block;
   color: white;
-  /* -webkit-text-fill-color: black; */
+  text-shadow: 0 0 5px rgb(0, 0, 0);
   text-align: center;
-  padding: 10px 50px;
+  padding: 10px 57px;
   text-decoration: none;
   background-color: transparent;
   border-radius: 20px;
   justify-content: space-evenly;
   font-weight: bold;
+  font-size: 20px
 }
 
 .nav li a:hover{

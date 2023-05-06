@@ -303,7 +303,7 @@ background-color: #eb7565;
   }
    .footer div button {
     margin: 2rem auto 0 auto;
-  } 
+  }
 }
 
 @media screen and (min-width: 700px) {
@@ -404,13 +404,13 @@ background-color: #eb7565;
 }
 
 .project {
-  
+
   width: 200px;
   height: 200px;
   border: 2px solid black;
   border-radius: 10px;
   overflow: hidden;
-  background-color:#7d40ee;
+
 }
 
 

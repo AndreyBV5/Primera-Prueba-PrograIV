@@ -37,7 +37,6 @@ background-color: #eb7565;
   justify-content: space-between;
 }
 
-.nav button:nth-of-type(2),
 .about article button,
 .footer div button {
   color: white;
@@ -46,10 +45,30 @@ background-color: #eb7565;
   padding: 0 2.9rem;
   border-radius: 9999px;
   letter-spacing: 0.03rem;
-  background-color: black;
+  background-color: #eb7565;
 }
 
+.nav button:nth-of-type(2){
 
+  color: white;
+  height: 3.5rem;
+  font-size: 1rem;
+  padding: 0 2.9rem;
+  border-radius: 9999px;
+  letter-spacing: 0.03rem;
+  background-color: black;
+
+}
+
+.footer div button:hover{
+
+  background-color: #7d40ee;
+}
+
+.footer nav button:hover{
+
+  background-color: #7d40ee;
+}
 .hero {
   text-align: center;
   margin-top: 4.17rem;
@@ -129,13 +148,13 @@ background-color: #eb7565;
   margin-bottom: 2rem;
 }
 
-.about article button {
+ .about article button {
   background-color: #eb7565;
-}
+} 
 
-.about article button :hover{
-  background-color: #b93220;
-}
+ .about article button:hover{
+  background-color: #7d40ee;
+} 
 
 .a article p {
   margin-top: 2.3rem;
@@ -191,9 +210,9 @@ background-color: #eb7565;
   background-color: black;
 }
 
-.work div:nth-of-type(2) button:hover {
+ .work div:nth-of-type(2) button:hover {
   background-color: #755cde;
-}
+} 
 
 .footer div {
   display: flex;
@@ -217,7 +236,7 @@ background-color: #eb7565;
 
 .footer div button {
   margin-right: 1.9rem;
-}
+} 
 
 .footer nav {
   margin-top: 3.5rem;
@@ -282,9 +301,9 @@ background-color: #eb7565;
     margin-top: 7.5rem;
     padding: 3.5rem 4.07rem;
   }
-  .footer div button {
+   .footer div button {
     margin: 2rem auto 0 auto;
-  }
+  } 
 }
 
 @media screen and (min-width: 700px) {
@@ -304,13 +323,13 @@ background-color: #eb7565;
   .nav button:nth-of-type(1) {
     width: 48px;
   }
-  .nav button:nth-of-type(2),
+   .nav button:nth-of-type(2),
   .about article button,
   .footer div button {
     height: 2.8rem;
     font-size: 0.9rem;
     padding: 0 1.8rem;
-  }
+  } 
   .hero {
     margin-top: 2.3rem;
   }

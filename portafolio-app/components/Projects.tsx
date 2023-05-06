@@ -11,7 +11,7 @@ const Projects = () => {
     id: number;
     html_url: string;
     name: string;
-    full_name: string;
+    image_url: string;
   }
   const [repos, setRepos] = useState<Repo[]>([]);
   const [x, setX] = useState(0);
@@ -78,14 +78,18 @@ const Projects = () => {
               drag='x'
               dragConstraints={{ left: -855.2, right: 855.2 }}
             >
-              {repos.map((repo) => (
-                <figure key={repo.id}>
-                  <a href={repo.html_url} target='_blank' rel='noreferrer'>
-                  <img src={`https://raw.githubusercontent.com/${repo.full_name}/main/logo.png`} alt={`${repo.name} logo`} />
-                    {repo.name}
-                  </a>
-                </figure>
-              ))}
+              <div className={styles.projectsContainer}>
+                {repos.map((repo) => (
+                  <figure key={repo.id} className={styles.project}>
+                    <a href={repo.html_url} target='_blank' rel='noreferrer'>
+                      <div className={styles.imageContainer}>
+                        <img src={repo.image_url} alt={`${repo.name} logo`} />
+                      </div>
+                      <div className={styles.name}>{repo.name}</div>
+                    </a>
+                  </figure>
+                ))}
+              </div>
             </motion.div>
             <div>
               <button type='button' onClick={() => handleSlide('right')}>

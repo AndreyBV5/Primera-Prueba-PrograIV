@@ -402,3 +402,16 @@ background-color: #eb7565;
     line-height: 1.75rem;
   }
 }
+
+.project {
+  
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color:#7d40ee;
+}
+
+
+
